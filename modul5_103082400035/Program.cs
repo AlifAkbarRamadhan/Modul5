@@ -21,6 +21,14 @@ namespace modul5_103082400035
 
             var hasil = p.JumlahTigaAngka(a, b, c);
             Console.WriteLine("Hasil: " + hasil);
+
+            SimpleDataBase<int> db = new SimpleDataBase<int>();
+
+            db.AddNewData(12);
+            db.AddNewData(34);
+            db.AddNewData(56);
+
+            db.PrintAllData();
         }
     }
 }
