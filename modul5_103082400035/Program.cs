@@ -12,6 +12,15 @@ namespace modul5_103082400035
         static void Main(string[] args)
         {
             Console.WriteLine("Berikut adalah pesan pertama");
+
+            Penjumlahan p = new Penjumlahan();
+
+            int a = 12;
+            int b = 34;
+            int c = 56;
+
+            var hasil = p.JumlahTigaAngka(a, b, c);
+            Console.WriteLine("Hasil: " + hasil);
         }
     }
 }
